@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to bottom right, #f8fafc, #eef2ff);
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-xl shadow transition;
+}
+
+.input-modern {
+  @apply w-full p-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
