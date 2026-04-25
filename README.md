@@ -115,16 +115,12 @@ npm run dev
 
 ---
 
-# ✅ What changed (important)
-
 - Fixed broken code blocks
 - Added proper spacing
 - Fixed headings
 - Made it GitHub-render friendly
 
 ---
-
-# 🚀 Now do this
 
 ```bash
 git add README.md
